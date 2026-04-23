@@ -1,5 +1,5 @@
 {% set name = "net-http-persistent" %}
-{% set version = "4.0.4" %}
+{% set version = "4.0.6" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: b62b7e528f72890f5cd67e7f687eeae55cf9f2cda22fd659494363da2fa7f4b2
+    sha256: 2abb3a04438edf6cb9e0e7e505969605f709eda3e3c5211beadd621a2c84dd5d
 
 build:
   noarch: generic
